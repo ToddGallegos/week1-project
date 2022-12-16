@@ -3,3 +3,33 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#navbar {
+    flex-basis:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.navbar {
+    flex-basis:100%;
+    justify-content:center;
+    background-color:white !important;
+}
+
+.container-fluid {
+    justify-content:center;
+}
+
+.navbar-nav {
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+a {
+    color:black;
+}
