@@ -5,8 +5,8 @@
 }
 
 body {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 #navbar {
@@ -27,9 +27,14 @@ body {
 
 .navbar-nav {
     flex-basis: 50%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 a {
     color:black;
+}
+
+#twobutton {
+    display:flex;
+    gap: 2rem;
 }
