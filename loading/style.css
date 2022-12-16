@@ -1,40 +1,44 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin-left: 3rem;
-    margin-right: 3rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 #navbar {
-    flex-basis:100%;
-    display:flex;
-    justify-content: center;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-right: 5rem;
 }
 
 .navbar {
-    flex-basis:100%;
-    justify-content:center;
-    background-color:white !important;
+  flex-basis: 100%;
+  justify-content: center;
+  background-color: white !important;
 }
 
 .container-fluid {
-    justify-content:center;
+  justify-content: center;
 }
 
 .navbar-nav {
-    flex-basis: 50%;
-    justify-content: space-around;
+  flex-basis: 50%;
+  justify-content: space-around;
 }
 
-a {
-    color:black;
+#navbar ul a {
+  color: black;
 }
 
 #twobutton {
-    display:flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+#twobutton a {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid #0d6efd;
 }
