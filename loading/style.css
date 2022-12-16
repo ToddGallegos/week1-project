@@ -10,6 +10,7 @@
   justify-content: center;
   margin-left: 3rem;
   margin-right: 5rem;
+  margin-bottom: 5rem;
 }
 
 .navbar {
@@ -31,14 +32,89 @@
   color: black;
 }
 
-#twobutton {
+.twobutton {
   display: flex;
   gap: 2rem;
 }
 
-#twobutton a {
+.twobutton a {
   font-size: 20px;
   font-weight: 600;
   border-radius: 10px;
-  border: 2px solid #0d6efd;
+  border: 2px solid #0850F8;
+}
+
+#todd-hero {
+    display:flex;
+    gap: 5rem;
+    margin-left: 10rem;
+    margin-bottom: 7rem;
+}
+
+#todd-hero img {
+    height: 43rem;
+    width:auto;
+}
+
+#horizontalrule {
+    display:flex;
+    justify-content:center;
+}
+
+#horizontalrule hr {
+    width: 60%;
+    border: 1px solid black;
+    margin-bottom: 4rem;
+}
+
+#todd-hero h1 {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+#todd-hero h2 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+#todd-hero h3 {
+    font-size: 25px;
+    color: rgb(155, 155, 155);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#todd-hero a {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+#header-left {
+    flex-basis: 50%;
+}
+
+#navbar .btn-primary {
+    background-color: #0850F8;
+}
+
+#header-left .btn-primary {
+    background-color: #0850F8;
+}
+
+#todd-hero .twobutton {
+    margin-bottom: 1.5rem;
+}
+
+#todd-bottom-list {
+    display:flex;
+    font-weight: 600;
+    gap: 1.5rem;
+}
+
+#todd-bottom-list img {
+    height:1rem;
+    width: auto;
+    margin-top: .25rem;
 }
