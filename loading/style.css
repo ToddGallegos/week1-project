@@ -157,6 +157,7 @@
 }
 
 #main-container div {
+
   height: 10rem;
   flex-basis: 9.5rem;
   border: 2px solid rgb(132, 132, 132);
@@ -164,19 +165,79 @@
   text-align: center;
 }
 
-#first-div img {
-  position:absolute;
-  width: 3.75rem;
-  height: 4rem;
-  z-index: 9;
+#inner-div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 4.2rem !important;
+  width: 4rem;
+  background-color:white;
+  margin:2rem auto 0;
+  border-radius: 50% !important;
 }
 
 #dollar-sign {
-  /* right: 0px;
-  bottom: 0px; */
+margin-top: 5px;
+  font-size: 34px;
+  font-weight: 600;
+  color: black !important;
 }
 
 #first-div p {
-  position:absolute;
-  z-index: 9;
+  color:white;
+}
+
+#payments {
+  margin-top: 1.5rem;
+}
+
+#main-container img {
+  height: 3rem;
+  width: auto;
+  margin-top: 2rem;
+}
+
+#main-container p {
+  margin-top: 2rem;
+}
+
+#big-middle {
+  display:flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#big-middle img {
+  height: 20rem;
+  width:auto;
+  margin: 10rem 1rem;
+}
+
+#text-right {
+  background-color: #0850F8;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  border: 1px solid black;
+}
+
+#img-left {
+  border-radius: 20px 0 0 20px;
+  border: 1px solid black;
+}
+
+#bottom-middle {
+  margin-top: 5rem;
+}
+
+#inner-text-right {
+  margin: 10rem 1rem;
+}
+
+#inner-h3 {
+  font-size: 19px;
+}
+
+#inner-button {
+  border: 1px solid white;
+  background-color: #0850F8;
 }
