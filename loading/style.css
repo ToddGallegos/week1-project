@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+.navbar {
+  flex-basis: 100%;
+  justify-content: center;
+  background-color: white !important;
+}
+
+.container-fluid {
+  justify-content: center;
+}
+
+.navbar-nav {
+  flex-basis: 50%;
+  justify-content: space-around;
+}
+
+#navbar ul a {
+  color: black;
+}
+
+.twobutton {
+  display: flex;
+  gap: 2rem;
+}
+
+.twobutton a {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid #0850f8;
+}
+
+#todd-hero {
+  display: flex;
+  gap: 4rem;
+  margin-left: 12rem;
+  margin-bottom: 7rem;
+}
+
+#todd-hero img {
+  height: 42rem;
+  width: auto;
+}
+
+#horizontalrule {
+  display: flex;
+  justify-content: center;
+}
+
+#horizontalrule hr {
+  width: 60%;
+  border: 1px solid black;
+  margin-bottom: 4rem;
+}
+
+#todd-hero h1 {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+#todd-hero h2 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+#todd-hero h3 {
+  font-size: 25px;
+  color: rgb(155, 155, 155);
+  font-weight: 700;
+}
+
+#todd-hero a {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+#header-left {
+  flex-basis: 50%;
+}
+
+#navbar .btn-primary {
+  background-color: #0850f8;
+}
+
+#header-left .btn-primary {
+  background-color: #0850f8;
+}
+
+#todd-hero .twobutton {
+  gap: 1.5rem;
+}
+
+#todd-bottom-list {
+  display: flex;
+  font-weight: 600;
+  gap: 1.5rem;
+}
+
+#todd-bottom-list img {
+  height: 1rem;
+  width: auto;
+  margin-top: 0.25rem;
+}
+
+#todd-hero #first-h3 {
+  margin-bottom: 2rem;
+}
+
+#top-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#top-main h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+#top-main p {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+#first-div {
+  z-index: 1;
+  background-color: #0850f8;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 10rem;
+}
+
+#main-container div {
+  height: 10rem;
+  flex-basis: 9.5rem;
+  border: 2px solid rgb(132, 132, 132);
+  border-radius: 15px;
+  text-align: center;
+}
+
+#inner-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.2rem !important;
+  width: 4rem;
+  background-color: white;
+  margin: 2rem auto 0;
+  border-radius: 50% !important;
+}
+
+#dollar-sign {
+  font-size: 34px;
+  font-weight: 600;
+  color: black !important;
+  margin:0 !important;
+}
+
+#first-div p {
+  color: white;
+}
+
+#payments {
+  margin-top:15px !important;
+}
+
+#main-container img {
+  height: 3rem;
+  width: auto;
+  margin-top: 2rem;
+}
+
+#main-container p {
+  margin-top: 2rem;
+}
+
+#big-middle {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#big-middle img {
+  height: 20rem;
+  width: auto;
+  margin: 10rem 1rem;
+}
+
+#text-right {
+  background-color: #0850f8;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  border: 1px solid black;
+}
+
+#img-left {
+  border-radius: 20px 0 0 20px;
+  border: 1px solid black;
+}
+
+#bottom-middle {
+  margin-top: 5rem;
+}
+
+#inner-text-right {
+  margin: 6rem 10rem 6rem 2rem ;
+}
+
+#inner-text-right h2 {
+  margin-bottom: 2rem;
+}
+#inner-text-right p {
+  font-size: 14px;
+}
+
+#inner-h3 {
+  font-size: 19px;
+  margin-bottom:2rem;
+}
+
+#inner-button {
+  border: 1px solid white;
+  background-color: #0850f8;
+}
+
+#bottom-middle {
+  text-align: center;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  margin: 5rem 20rem;
+  gap: 2rem;
+}
+
+#grid-item {
+  text-align: center;
+  padding: 20px;
+}
+
+#grid-item img {
+  height: 20rem;
+  width: auto;
+}
+
+footer {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-color:#0850f8;
+  color:white;
+}
+
+footer.btn-primary {
+  background-color:white !important;
+}
+
+#button2 {
+  color:#0850f8;
+}
+
+footer h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+footer h3 {
+  margin-bottom: 2rem;
+}
+
+#todd-bottom-list.bottom {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
