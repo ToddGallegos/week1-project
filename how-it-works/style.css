@@ -1,0 +1,214 @@
+ body {
+     height: 100%;
+     background-size: 50% auto;
+     background-color: rgba(254, 252, 252, 0.968);
+     font-family: sans-serif;
+
+ }
+
+ html {
+     height: 100%;
+ }
+
+ a {
+     color: rgb(34, 33, 33) !important;
+     padding-top: 5px;
+     font-size: medium;
+     font-weight: light;
+     text-decoration: none;
+ }
+
+ .sign-right {
+     text-align: end;
+     margin-right: 20%;
+     margin-top: -2.5%;
+
+ }
+
+ .free-right {
+     text-align: end;
+     margin-right: 10%;
+     margin-top: -2.5%;
+ }
+
+ .double-tap img {
+     margin-top: -6%;
+     width: 150px;
+     margin-left: 4%;
+ }
+
+ .righttable img{
+    width: 30%;
+    float: right;
+    margin-top: -31%;
+    margin-right: 8%;
+ }
+
+ li {
+     display: inline;
+     margin-right: 2%;
+     font-size: 12px;
+ }
+
+ .up-free {
+     margin-left: 5%;
+     margin-top: 1%;
+ }
+
+ .chat {
+     margin-left: 20%;
+     margin-top: -3.6%;
+ }
+
+ h2 {
+     margin-top: -1%;
+ }
+
+ h5 {
+     margin-top: -1.5%;
+ }
+
+ h6 {
+     margin-top: 1.5%;
+ }
+
+ .dot1 img {
+     width: 6px;
+     margin-left: 12%;
+     margin-top: -6.5%;
+ }
+
+ .dot2 img {
+     width: 6px;
+     margin-left: 27%;
+     margin-top: -10%;
+ }
+
+ span {
+     color: rgb(101, 101, 101);
+ }
+
+ hr {
+     width: 50%;
+     margin-left: 20%;
+ }
+
+ p {
+     text-align: center;
+     font-weight: bolder;
+ }
+
+ .container {
+     display: grid;
+     grid-template-columns: 10.3fr 0.1fr 0.1fr;
+     grid-template-rows: 0.3fr 1.7fr 1.1fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     background-Color: blue;
+     width: 45%;
+     height: 260px;
+     float: right;
+     color: white;
+     margin-right: 9%;
+     margin-top: -23%;
+     position: relative;
+     border: 1px soild rgb(253, 253, 253);
+     border-radius: 1%;
+
+
+     grid-template-areas:
+         "Collect-usefull-Info . ."
+         "loremx3 . ."
+         ". . .";
+ }
+
+ .Collect-usefull-Info {
+     grid-area: Collect-usefull-Info;
+ }
+
+ .loremx3 {
+     grid-area: loremx3;
+ }
+
+ .white img {
+     width: 25%;
+     margin-bottom: 4%;
+     margin-left: 21%;
+     border: 1px solid rgb(225, 221, 221);
+     margin-top: 2%;
+     border-radius: 3%;
+ }
+
+ .container2 {
+     display: grid;
+     grid-template-columns: 37fr 0.1fr 10.3fr;
+     grid-template-rows: 0.3fr 2.8fr 0.1fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     background-color: blue;
+     color: white;
+     width: 50%;
+     float: right;
+     margin-top: -25%;
+     margin-right: 3%;
+     height: 300px;
+     border-radius: 4% soild lightgrey;
+     grid-template-areas:
+         "pay-sooner . ."
+         "text . ."
+         ". . .";
+ }
+
+ .pay-sooner {
+     grid-area: pay-sooner;
+     text-align: center;
+ }
+
+ .text {
+     grid-area: text;
+     text-indent: 5%;
+     text-align: end;
+ }
+
+ .otherman img {
+     width: 18%;
+     margin-left: 20%;
+     height: 350px;
+ }
+
+ /* This is the footer on the css/*/
+ footer {
+     background-color: blue;
+ }
+
+ .uschat {
+     text-align: center;
+     margin-top: -3%;
+     margin-left: 10%;
+ }
+
+ .started {
+     margin-left: 38%;
+     margin-top: 1%;
+     border-radius: 10px;
+ }
+
+ .letsg {
+     margin-top: -1%;
+ }
+
+ .footer-nav {
+     margin-top: 2%;
+ }
+
+ .w1 img {
+     width: 6px;
+     margin-left: 43%;
+     margin-top: -6%;
+ }
+
+ .w2 img {
+     width: 6px;
+     margin-left: 58%;
+     margin-top: -10%;
+ }
